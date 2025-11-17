@@ -49,7 +49,7 @@ class Loader:
         return x_train,x_test,y_train,y_test
     
     def get_features_and_target(self,database_processed): # --------------- Função que separa os dados em feature (que serão o
-                                       # --------------- input) e target (o output/objetivo)
+                                                          # --------------- input) e target (o output/objetivo) 
         feature_columns = [
             "sepal_length_cm",
             "sepal_width_cm",
@@ -69,7 +69,7 @@ class Loader:
         return features,target
     
     def convert_species_to_numbers(self,database): # ------- Função que converte as espécies de STRING para um valor
-                                          # ------- inteiro
+                                                   # ------- inteiro
         database_copy = database.copy()
         database_copy["species"] = database_copy["species"].str.strip().str.lower()
 
@@ -88,7 +88,7 @@ class Loader:
         return database_copy
     
     def convert_number_to_species(self,number): # ----- Funçãoque converte um valor inteiro para a STRING
-                                                  # ----- associada a ele
+                                                # ----- associada a ele
         return self.numbers_to_species.get(number,'Unknown')
         
     
