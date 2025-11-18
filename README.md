@@ -1,8 +1,8 @@
 # Sistema de Classificação de Espécies de Íris
 > Avaliação Geral 2 do curso de Engenharia de Software (AG002).
-Integrantes:
-Beatriz de Araújo Cardozo GES 339
-Marcelo Alckmin Pereira Lima GES 119
+> Integrantes:
+> Beatriz de Araújo Cardozo GES 339
+> Marcelo Alckmin Pereira Lima GES 119
 ## Descrição do Projeto
 O **Sistema de Classificação de Espécies de Íris** utiliza o algoritmo Perceptron para classifiar flores do tipo Íris em três espécies distintas:
 * Iris Setosa
