@@ -2,9 +2,6 @@ import pandas as pd
 
 from sklearn.model_selection import train_test_split
 
-# FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. 
-# To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future 
-# behavior, set `pd.set_option('future.no_silent_downcasting', True)
 pd.set_option('future.no_silent_downcasting', True)
 
 
